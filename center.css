@@ -1,8 +1,0 @@
-<style type="text/gss">
-  /* GSS needs the dimension of the image to calculate its position. */
-  #p[height] == 250;
-  /* The width == the height multiply by the width/height ratio */
-  #p[width] == #cassowaryImg[height] * 409/450;
-  /* This will position the image to be in the center of the window! That's easy! */
-  #p[center] == ::window[center];
-</style>
